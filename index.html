@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header class="header">
+            <a href="https://damianborowski.com" class="logo"><img src="images/icon.png"></a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+        </header>
+        <div class="container">
+          <section class="home" id="home">
+            <h1 class="text"></h1><h1 class="cursor">|</h1>
+          </section>
+          <section class="about-me" id="about-me">
+                  <h1>About Me</h1>
+                  <h3>Passion for creation is a passion to create great things</h3>
+                  <p>Hi! My name is Damian. I’m Front-End Developer and Graphic Designer. I appreciate the entrepreneurial people and I help them with create their businness online. From a few years I have my own business and I know, how important is image on the internet.</br>
+                  I have over ten years experience in Graphic Design and four years as Web Developer but many company, which I cooperate have Websites in wordpress. It’s time to get level up! Actually I create every day many projects in clean code ( Html, Css, Javascript, React ).</p>
+          </section>
+          <section class="my-photo">
+          </section>
+          <section class="portfolio" id="portfolio">
+              <section class="portfolio__one"></section>
+              <section class="portfolio__two"></section>
+          </section>
+          <section class="contact" id="contact">
+            <div class="contact-form">
+                <form id="contact-form" method="post" action="mail.php">
+                    <input name="name" type="text" class="form-control" placeholder="Your Name" required></br>
+                    <input name="email" type="email" class="form-control" placeholder="Your email" required></br>
+                    <textarea name="message" class="form-control" placeholder="Message" rows="6" required></textarea></br>
+                    <input type="submit" class="form-control submit" value="SEND MESSAGE">
+                </form>
+            </div>  
+          </section>
+        </div>
+        <script src="script/script.js"></script>
+    </body>
+</html>
